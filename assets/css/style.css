@@ -1,0 +1,696 @@
+@font-face {
+    font-family: gobCL;
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/gobcl_light.eot?) format("eot"), url(../fonts/gobcl_light.woff) format("woff"), url(../fonts/gobcl_light.ttf) format("truetype")
+}
+@font-face {
+    font-family: gobCL;
+    font-weight: 500;
+    font-style: normal;
+    src: url(../fonts/gobcl_regular.eot?) format("eot"), url(../fonts/gobcl_regular.woff) format("woff"), url(../fonts/gobcl_regular.ttf) format("truetype")
+}
+@font-face {
+    font-family: gobCL;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/gobcl_bold.eot?) format("eot"), url(../fonts/gobcl_bold.woff) format("woff"), url(../fonts/gobcl_bold.ttf) format("truetype")
+}
+@font-face {
+    font-family: gobCL;
+    font-weight: 900;
+    font-style: normal;
+    src: url(../fonts/gobcl_heavy.eot?) format("eot"), url(../fonts/gobcl_heavy.woff) format("woff"), url(../fonts/gobcl_heavy.ttf) format("truetype")
+}
+/* header */
+html{}
+*{
+    font-family: "gobCL";
+    color:#025586;
+    line-height: initial;
+}
+
+/*  reset html  */
+
+body {
+    
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.text-upper{
+    text-transform: uppercase; 
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+/* reset bootstrap */
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+.banners .col-md-4{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banners img {
+    max-width: 100%;
+}
+.border-left-2-primary{
+    border-left: 2px solid #025586;
+}
+
+/* font size */
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fw-600{
+    font-weight: 600;
+}
+.border-white{
+    border-color: #ffffff;
+}
+.border-x1{
+    border:1px solid;
+}
+/* colors */
+.font-blue{
+    color:#025586;
+}
+.social a{
+    padding: 0px;
+    margin: 0px;
+}
+.social span.mdi{
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+.social {
+    width: 220px;
+}
+.linkedin{
+    color:#0573B0;
+}
+.twitter{
+    color:#1DA1FA;
+}
+.withe{
+    color:#ffffff;
+}
+.red{
+    color:#e63837 !important;
+}
+
+.owl-carousel{
+    padding: 0px 30px;
+}
+
+ul.list{
+}
+
+.pt-6 {
+	padding-top: 4rem;
+}
+
+/* Lenguaje */
+
+.btn_lenguaje {
+	background: #364d6f;
+    color: #d8e3ec;
+    padding: 5px 14px;
+    border-radius: 0 0 6px 6px;
+    margin-top: -10px !important;
+    display: block;
+	text-align: center;
+}
+.btn_lenguaje:hover {
+    color: #d8e3ec;
+}
+
+/* menu header  */
+.menu-header{
+    background-color: #d8e3ec;
+    padding: 0px 15px;
+}
+.menu-header .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-dark .navbar-nav {
+    float: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+    text-align: right;
+    text-decoration: none;
+    font-weight: 500;
+    color:#025586 !important;
+    margin-left: 3rem;
+}
+.menu-menu-principal-container ul li a:hover{
+    text-decoration: none;
+}
+
+.logoCsirtMenu {
+    max-width: 124px;
+}
+
+/* nuevo menu header  */
+
+
+/* contacto */
+.contacto{
+    background-image: url(../images/background-contacto.png) ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    height: 267px;
+}
+
+.contacto .logo{
+    width: 176px;
+}
+
+.contacto .contacto-title{
+    color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.contacto .contacto-title span.mdi{
+    color:#ffffff;
+    font-size: 30px;
+}
+.contacto .contacto-phone{
+    color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 44px;
+    font-weight: 600;
+}
+.contacto .contacto-text p{
+    color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-incidente {
+    color: #ffffff;
+    background-color: #bf3639;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+.text-como {
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* noticias */
+.alertas{
+    background-image: url(../images/background-alertas.png);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center bottom;
+    background-size: cover;
+    background-color: #bf3639;
+    height: auto;
+    padding-bottom: 5px;
+}
+.alertas h2{}
+.alertas p{}
+.alertas .button{
+    font-size: 12px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #8a2b2e;
+    border-color: #731316;
+}
+.alertas .button:hover,
+.alertas .button:active,
+.alertas .button:focus,
+.alertas .button:visited{
+    background-color: #6f1013 !important;
+    border-color: #731316 !important;
+}
+.alertas .icon{}
+.alertas .title{}
+
+.alertas .video {
+    max-width: 62%;
+    float: right;
+    margin-right: 10%;
+}
+
+.alertas a:hover p {
+    color: #364d6f;
+}
+
+.btn-recomendaciones,
+.btn-noticias{
+    font-size: 12px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #025586;
+    border-color: #025586;
+}
+.btn-recomendaciones:hover,
+.btn-recomendaciones:active,
+.btn-recomendaciones:focus,
+.btn-recomendaciones:visited{
+    background-color: #025586 !important;
+    border-color: #025586 !important;
+}
+
+/* vulnerabilidades */
+#vulnerabilidades{
+    padding: 0px;
+}
+
+.vulnerabilidades .button {
+    font-size: 12px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #025586;
+    border-color: #003350;
+}
+
+.vulnerabilidades .button:hover,
+.vulnerabilidades .button:active,
+.vulnerabilidades .button:focus,
+.vulnerabilidades .button:visited{
+    background-color: #025586;
+    border-color: #003350;
+}
+
+.vulnerabilidades a:hover p {
+    color: #ffffff;
+}
+
+.alertas-internacionales .button {
+    font-size: 12px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #5882a6;
+    border-color: #42617c;
+}
+
+.alertas-internacionales .button:hover,
+.alertas-internacionales .button:active,
+.alertas-internacionales .button:focus,
+.alertas-internacionales .button:visited{
+    background-color: #5882a6;
+    border-color: #42617c;
+}
+
+.alertas-internacionales a:hover p {
+    color: #ffffff;
+}
+
+/* noticias */
+.noticias{
+    background-image: url(../images/background-noticias.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: auto;
+}
+.noticias .vulnerabilidades h2{}
+.noticias .vulnerabilidades a{
+    text-decoration: none;
+}
+.noticias .alertas-internacionales a{
+    text-decoration: none;
+}
+.noticias .vulnerabilidades a span{}
+.noticias a:hover p{
+    color: #bf3639;
+}
+.noticias .vulnerabilidades a span{}
+.noticias a:hover h1{
+    color: #bf3639;
+}
+
+#noticias{
+    padding: 0px 0px 30px 0px;
+    margin: 0px;
+    height: auto;
+}
+
+#noticias .estadisticas {
+    margin-bottom: 5rem !important;
+}
+
+.img-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+
+.noticias .button {
+    font-size: 12px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #025586;
+    border-color: #003350;
+}
+
+.noticias .button:hover,
+.noticias .button:active,
+.noticias .button:focus,
+.noticias .button:visited{
+    background-color: #025586;
+    border-color: #003350;
+}
+
+/* footer */
+.footer{
+    background-color:#025586;
+    padding: 40px 0px;
+}
+
+.mw-30 {
+    max-width: 30%;
+}
+
+.mw-100 {
+    max-width: 100%;
+}
+
+/* fontawesome */
+
+.fa-gray {
+    color:#364d6f;
+}
+
+.fa-white {
+    color: white;
+}
+
+.fa-blue {
+    color: #025586;
+}
+
+.fa-icons {
+    margin-top: 0.5rem;
+}
+
+/* modals */
+
+.titleModal {
+    text-transform: uppercase;
+}
+
+.btnRevisarConvenio a {
+    color: #ffffff;
+    padding: 1rem 2rem;
+    background-color: #0573B0;
+}
+
+.btnRevisarConvenio a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btnVisitarSitio a {
+    color: #ffffff;
+    padding: 1rem 2rem;
+    background-color: #0573B0;
+}
+.btnVisitarSitio a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#page {
+    min-height: 50%;
+}
+
+#page p {
+    font-size: 20px;
+}
+
+.page-numbers {
+    margin-right: 1rem;
+}
+
+.text-bold{
+	font-weight:800 !important;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    .mmt-5 {
+        margin-top: 2.7em !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .contacto {
+        height: auto;
+        background-size: cover;
+    }
+    .contacto .logo {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+    }
+    .contacto .contacto-title {
+        font-size: 24px;
+        margin-right: 0 !important;
+    }
+    .contacto .contacto-phone {
+        font-size: 24px;
+        margin-right: 0 !important;
+    }
+    #vulnerabilidades {
+        padding: 30px 60px;
+        margin: 0px !important;
+    }
+    #mainMenu a {
+        width: 100%;
+        display: block;
+        padding: 7px 0px;
+        margin: 0px;
+    }
+    .text-incidente {
+        font-size: 17px;
+    }
+    .text-como {
+        font-size: 17px;
+    }
+    .minw-130 {
+        min-width: 130%;
+    }
+    .alertas {
+        background-image: none;
+    }
+    .vulnerabilidades {
+        margin-top: 0;
+    }
+    .noticias {
+        background-image: url(../images/background-noticias.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+    }
+    .estadisticas {
+        margin-bottom: 3rem;
+    }
+    .rss-footer {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* header */
+    #mainMenu.collapsing, #mainMenu.show {
+        width: 100%;
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+    }
+    #mainMenu a {
+        width: 100%;
+        display: block;
+        padding: 7px 0px;
+        margin: 0px;
+        font-size: 18px;
+    }
+    #mainMenu a span.mdi {
+        display: none;
+    }
+    #menuControl {
+        display: block !important;
+    }
+    #mainMenu.collapse:not(.show) {
+        display: none !important;
+    }
+    .contacto {
+        background-image: url(/media/2019/07/background-mobile-contacto.png);
+        background-position: center left;
+        background-size: cover;
+        background-color: #003350;
+        height: auto;
+    }
+    .mobile-2 {
+        background-image: url(/media/2019/07/background-mobile-people.png);
+        background-repeat: none;
+        min-height: 212px;
+    }
+    .que-es-csirt {
+        background-color: #d8e3ec;
+        width: 1081px !important;
+        margin-top: -8px;
+        min-width: fit-content;
+    }
+    .que-es-csirt h2 {
+        color: #025586 !important;
+    }
+    .alertas {
+        background-image: none;
+        background-color: #bf3639;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .alertas .que-es-csirt .title {
+        padding-top: 1rem !important;
+    }
+    .alertas .que-es-csirt .video {
+        margin-right: 20%;
+        padding-bottom: 1rem;
+    }
+    .vulnerabilidades {
+        margin-top: 7.5rem !important;
+    }
+    .alertas-internacionales {
+        margin-top: 2rem;
+    }
+    .noticias {
+        background-image: url(../images/background-noticias.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        height: auto;
+    }
+    .border-left-2-primary {
+        margin-top: 3rem;
+    }
+    .rss-footer {
+        margin-top: 3rem;
+        align-items: center;
+    }
+    .rss-footer a {}
+}
+
+@media (max-width: 576px) {
+    .contacto .contacto-title {
+        font-size: 28px;
+    }
+    .contacto .contacto-title span.mdi {
+        font-size: 24px;
+    }
+    .contacto .contacto-phone {
+        font-size: 24px;
+    }
+    .contacto .contacto-text {
+        border: none;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    #mainMenu a {
+        width: 100%;
+        display: block;
+        padding: 7px 0px;
+        margin: 0px;
+        font-size: 18px;
+    }
+    /* alertas */
+    .alertas {
+        background-image: none;
+        background-color: #bf3639;
+        padding: 30px 45px;
+    }
+    .alertas .title {
+        color: #ffffff;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contacto .contacto-title, .contacto .contacto-title span.mdi, .contacto .contacto-phone {
+        font-size: 16px !important;
+    }
+}
+/* media queries */
+
+.thumbnail-single {
+    padding: 0 7rem 0 7rem;
+}
+
+
